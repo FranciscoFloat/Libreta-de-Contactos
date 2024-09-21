@@ -47,11 +47,13 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 8. Ejecuta la aplicación Angular:
   ng serve
 9. Ejecuta el servidor de Laravel:
+    php artisan serve
    
 Consideraciones
 Asegúrate de tener configurada tu base de datos correctamente en el archivo .env.
 Si utilizas Laravel Sanctum para la autenticación, asegúrate de seguir la documentación oficial para configurarlo adecuadamente.
 Para acceder a la aplicación, visita http://localhost:4200 para Angular y http://localhost:8000 para Laravel.
+Nombre de base de datos : libreta-direcciones
   
 
 
